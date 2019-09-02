@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:m="http://mayaa.seasar.org">
+<head>
+<meta name="robots" content="noindex, nofollow, noarchive" />
+<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<style type="text/css">
+<!--
+body{line-height:1.5; color: #000; text-align:center; font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,Osaka,'ＭＳ Ｐゴシック','MS P Gothic',sans-serif;}
+h1{margin: 60px 0 80px; padding: 0 12px; font-size:28px;}
+div{padding:0 12px; margin:auto; text-align: center;}
+h2{margin: 0 0 40px; font-size: 18px; font-weight: normal;}
+p{margin: 0 0 70px; font-size: 14px;}
+.button{width: 240px; height: 50px; border: solid 1px #000; background: none; line-height: 50px;}
+@media screen and (max-width: 768px) {
+h1{margin-bottom: 40px; font-size: 18px;}
+h2{margin-bottom: 15px; font-size: 14px;}
+p{margin-bottom: 50px; font-size: 12px;}
+}
+-->
+</style>
+<script type="text/javascript">
+//<![CDATA[
+$(function(){
+    setTimeout(function () {
+        $("#top_button")[0].click();
+    }, 1000);
+});
+//]]>
+</script>
+
+<title>404 File Not Found </title>
+</head>
+
+<body>
+
+<h1>404 File Not Found </h1>
+<div>
+	<h2>お探しのページは見つかりませんでした。</h2>
+	<p>あなたがアクセスしようとしたページは削除されたかURLが変更された可能性があるため、<br />
+	見つけることができませんでした。</p>
+</div>
+
+<div class="buttonarea">
+	<input id="top_button" class="button" type="button" onClick="location.href='/'; return false;" value="トップページへ" />
+</div>
+
+</body>
+</html>
